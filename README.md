@@ -18,7 +18,3 @@ Spring设计模式
   工厂模式：隐藏复杂逻辑过程，只关心结果；
   
   
-``
-git config --global --edit  git commit --amend --reset-author
-
-``
