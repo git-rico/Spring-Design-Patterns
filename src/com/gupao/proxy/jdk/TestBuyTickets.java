@@ -1,9 +1,9 @@
-package com.gupao.proxy;
+package com.gupao.proxy.jdk;
 
 /**
  * @author rico
  * @version 1.0
- * @description: 案例-黄牛买票
+ * @description: jdk动态代理 案例-黄牛买票
  *      1.执行者、被代理人
  *      2.被代理人必须做，但没有时间或不想做，找代理
  *      3.获取被代理人的个人资料
