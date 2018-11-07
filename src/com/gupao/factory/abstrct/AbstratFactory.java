@@ -15,6 +15,7 @@ public abstract class AbstratFactory {
 
     abstract Car getCar();
 
+    //动态配置
     protected Car getCar(String name){
         if ("Benz".equals(name)){
             return new BenzFactory().getCar();
