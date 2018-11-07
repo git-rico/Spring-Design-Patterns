@@ -1,5 +1,9 @@
 package com.gupao.proxy.jdk;
 
+import sun.misc.ProxyGenerator;
+
+import java.io.FileOutputStream;
+
 /**
  * @author rico
  * @version 1.0
@@ -15,6 +19,12 @@ public class TestBuyTickets {
         try {
             Person person = (Person) new Huangniu().getInstance(new ZHangsan());
             person.buyTickets();
+
+            //获取字节码文件
+//            byte[] data = ProxyGenerator.generateProxyClass("$Proxy0",new Class[]{Person.class});
+//            FileOutputStream out = new FileOutputStream("/Users/rico/IdeaProjects/Spring-Design-Patterns/$Proxy.class");
+//            out.write(data);
+//            out.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
