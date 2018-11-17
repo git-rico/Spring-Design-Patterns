@@ -7,7 +7,7 @@ public class TestMain {
         TestSingleton ts1 = TestSingleton.getInstance();
         ts1.setName("james");
         TestSingleton ts2 = TestSingleton.getInstance();
-        ts2.setName("tom");
+        ts2.setName("rico");
 
         ts1.printInfo();
         ts2.printInfo();
